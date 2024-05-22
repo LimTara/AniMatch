@@ -35,7 +35,6 @@ struct ContentView: View {
         }
     }
     
-    // Generate new characeter & check score
     func newCharacter(character: inout String) {
         while attempts < 30 && character != computerSlot {
             
